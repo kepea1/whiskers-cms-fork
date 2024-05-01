@@ -20,7 +20,7 @@ export default function NavbarShadcnDrop() {
 
       <DropdownMenu>
         <DropdownMenuTrigger className="open:hidden">
-          <button className="btn btn-primary ">
+          <button className="btn btn-primary size-8 ">
             <HamburgerMenuIcon className="" />
           </button>
           {/* <button className="btn btn-primary  ">
