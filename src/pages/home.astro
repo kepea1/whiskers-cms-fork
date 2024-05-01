@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import hero_image from "../assets/images/hero-placeholder.jpg";
+import og_image from "public/van-OG.jpg"
 ---
 
 <!-- <section class="flex flex-col border-2 sm:bg-red-500"> --><!-- <div class="flex gap-2 border-2 border-red-500"> -->
@@ -38,6 +39,15 @@ import hero_image from "../assets/images/hero-placeholder.jpg";
   </div>
   <Image
     src={hero_image}
+    alt="owner stroking a dog"
+    class="inline"
+    width={600}
+    height={300}
+    class="object-contain rounded-lg shadow-lg md:m-3"
+    loading="eager"
+  />
+  <Image
+    src={og_image}
     alt="owner stroking a dog"
     class="inline"
     width={600}
