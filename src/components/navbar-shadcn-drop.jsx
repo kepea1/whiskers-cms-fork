@@ -5,7 +5,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/components/ui/dropdown-menu"
+
 import { HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-icons";
 
 export default function NavbarShadcnDrop() {
@@ -36,6 +37,18 @@ export default function NavbarShadcnDrop() {
                 </DropdownMenuItem> */}
         </DropdownMenuContent>
       </DropdownMenu>
+      <DropdownMenu>
+  <DropdownMenuTrigger>OpenME</DropdownMenuTrigger>
+  <DropdownMenuContent>
+    <DropdownMenuLabel>My Account</DropdownMenuLabel>
+    <DropdownMenuSeparator />
+    <DropdownMenuItem>Profile</DropdownMenuItem>
+    <DropdownMenuItem>Billing</DropdownMenuItem>
+    <DropdownMenuItem>Team</DropdownMenuItem>
+    <DropdownMenuItem>Subscription</DropdownMenuItem>
+  </DropdownMenuContent>
+</DropdownMenu>
+
     </section>
   );
 }
